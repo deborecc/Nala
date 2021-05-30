@@ -1,0 +1,498 @@
+*{
+    margin:0px;
+    padding:0;
+}
+
+
+
+
+h1{
+        background-color: #f3efd5;
+        color:sienna;
+        font-size:50px;
+        line-height: 5;
+        margin-top: 100px;
+        text-align: center;
+        font-family:'Libre Baskerville', serif;
+}
+.error{
+    color:red;
+    font-size: 25px;
+    font-family: sans-serif;
+    text-align: center;
+    background-color: rgb(255, 253, 249);
+    padding:100px;
+    margin:50px;
+
+}
+
+h2{
+    
+    color:slategrey;
+    font-size: 30px;
+    text-align: center;
+    margin-top:30px;
+    font-family:'Dancing Script',cursive;
+     
+}
+h3{
+    color:darkred;
+    font-size: 1em;
+    font-family: 'Libre Baskerville', serif;
+   
+    
+    
+}
+
+/**ENCABEZADO**/
+header{ 
+    top:0;
+    margin-left: 0;
+    position: fixed;
+    z-index:2; 
+    
+
+ /** LOGO DE PAGINA **/
+ .logo{
+    
+    float:left;
+    width:100px;
+    margin-top:20px;
+}
+}
+
+
+/**FORMULARIO DE CONTACTO**/
+
+.form-group{
+    background-image: url(Multimedia/nubes.jpg);
+    background-size:cover;
+    border-radius: 5px;
+    width: 100%; 
+    max-width: 600px; 
+    margin: 0 auto; 
+    margin-top: 50px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(194, 186, 186);
+    
+}
+.form-group_leg{ /*BEM*/
+    font-size: 20px;
+    text-decoration: underline;
+    font-family:'Libre Baskerville', serif;
+    padding:10px;
+}
+input{
+    margin:5px;
+    font-size: 14px;
+    margin:10px 0px 10px 0px;
+    
+
+}
+
+.selection{
+    font-size: 14px;
+}
+
+/**FONDO DE PAGINA**/
+
+body{
+    background-color: rgb(252, 251, 233);
+    background-size: 100%;
+
+}
+
+/**FOOTER,GRID**/
+
+#piePagina{
+
+display:grid; 
+grid-template-areas:"pie pie pie pie";
+ /*1er fila*/ 
+    
+grid-template-columns: 20% auto 15%;
+grid-template-rows: 70px 1fr 1fr 60px;
+
+
+}
+/*Nombre cada item de grid*/
+
+.piePag{ /*BEM*/
+    background: rgb(151, 125, 125);
+    padding:30px;
+    width:100%;
+    color:white;
+    
+    
+    
+    
+}
+
+.piePag_elementos{ /*BEM*/
+    
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1rem;
+}
+
+
+
+
+
+/**MENU NAVEGACION**/
+
+nav {
+    display:inline-block;
+    padding:5px;
+    margin-top:15px;
+    
+    
+    }
+    nav ul{
+        background:#e9d8ca;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 15px;
+        float:left;
+        display:flex;
+        border-radius: 5px;
+        
+     
+    }
+    nav ul li{
+        list-style: none;
+        position: relative;
+        margin:10px;
+        text-decoration: none;
+        
+    }
+    nav ul li:hover ul{ 
+        display:block;
+   
+       }
+    nav ul li a{
+        color:black;
+        justify-content: center;
+        text-decoration: none; 
+        
+    }
+    nav ul li ul {  
+        
+        display:none; 
+        background:#e9d8ca;
+        position:absolute;
+        font-size: 13px;
+        
+    
+    }
+    .subMenu{
+        background:#e9d8ca;
+        font-size: 13px;
+        position: absolute;
+        top: 100%;
+        list-style: none;
+        padding: 0.5rem 0;
+        justify-content: center;
+        float:left;
+        display:none;
+       
+        
+        
+        
+    }
+    .sub-item{
+        background:#e9d8ca;
+        text-decoration: none;
+        justify-content: center; 
+        display: block;
+        width: 100%;
+        padding: 0.5rem 0;
+        text-align: inherit;
+        white-space: nowrap; 
+       
+
+
+    }
+    
+    
+
+
+/**LISTA DE COMO COMPRAR**/ 
+
+.ComoComprar {
+   
+    font-family: 'Dancing Script', cursive;
+    font-style:italic;
+    font-size: 25px;
+    margin-top: 50px;
+    margin-bottom: 180px;
+    text-align:center;
+    
+}
+.ComoComprar_elementos{ /*BEM*/
+    
+    text-align:center;
+    display:inline-block;
+}
+
+
+
+/*EJEMPLO EACH CON LOGOS PIE DE PAGINA */
+@each $icono in tarjeta, instagram, correo{
+    .#{$icono}{
+        background-image: url("#{$icono}.jpg") ;
+        width: 20px;
+        float:right
+    }
+}
+
+
+
+
+
+
+/**FOTOS DE LA PAGINA**/
+
+.carro { 
+    margin-left:20%;
+    margin-top:20%;
+    width: 90%;
+    float:right;
+    
+    
+   
+}
+.parFotos {
+    margin-top: 40%;
+    font-family:'Merriweather', serif;
+    font-size: 20px;
+    border-radius: 1.0;
+    font-size: 30px;
+    padding: 5px;
+    color:rgb(128, 50, 76);
+    letter-spacing: 5px;
+    text-align: center;
+  
+    
+     .p2{
+
+         font-size: 15px;
+         text-align: left;
+         margin-top: 20%;
+         margin-left: 20%;
+         font-family: 'Merriweather', serif;
+         
+     }
+    
+}
+.botonIndex{
+    background-color: rgb(240, 237, 231);
+    border-radius: 5px;
+    margin-top:5%;
+    font-size: 15px;
+    
+}
+
+.foto{
+    width: 50%;
+    float:right;
+
+}
+.parte2{
+    margin-top: 20%;
+    font-family:'Merriweather', serif;
+    font-size: 20px;
+    border-radius: 1.0;
+    font-size: 30px;
+    padding: 5px;
+    color:rgb(128, 50, 76);
+    letter-spacing: 5px;
+    text-align: right;
+    float: right;
+    
+ .p3{
+     
+    font-size: 15px;
+    float:right;
+    margin-top: 10%;
+    font-family: 'Merriweather', serif;
+    animation-duration: 3s;
+    animation-name:slidein;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+   }
+}
+
+ 
+
+.bordesRedondos:hover{ /*animacion en imagenes*/
+    transform: scale(1.1);
+}
+
+/**BORDES DE FOTOS**/
+.bordesRedondos {
+    border-radius: 4px;
+    margin:20px;
+    width: 70%;
+    float:right;
+}
+.cards{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap:wrap; 
+}
+.card{
+    background-color: rgb(252, 251, 233);
+        border-radius: 1.5%;
+        
+     img{
+         padding:10px;
+         height: 100%; 
+         object-fit: cover;
+     }
+     p{
+         font-size: 1em;
+         
+         color:rgb(0, 0, 0);
+         text-decoration:underline;
+     }
+     
+    }
+    
+    .botoncomprar{
+        background-color: white;
+        color:black;
+        padding:5px;
+        border-radius: 3px;
+        border: 1px  solid black;
+        
+
+    }
+    .botoncomprar:hover {
+        padding: 4px;
+        background-color: rgb(240, 238, 234);
+       
+    }
+.card-body{
+    justify-content: center;
+    text-align: center;
+
+    a{
+        
+        color: black;
+        text-decoration: none;
+        font-size: 13px;
+        padding: 5px 15px 5px 15px;
+    }
+    
+.card-title{
+    font-size: 1em;
+    
+    }
+.btn{
+    background-color: rgb(96, 178, 233);
+    }
+
+    
+}
+/**DIAS DE CAMBIO, TABLA**/
+
+ .tabla { /*BEM*/
+border-collapse: collapse;
+text-align: center;
+display:flex;
+justify-content: center;
+margin-bottom: 80px;
+
+ .tabla_cambios  { /*BEM*/
+    border-collapse: collapse; 
+    background-color: #faf2c7;
+    border:3px solid rgb(247, 160, 160);
+    font-size: 20px;
+    margin:40px;
+    color:rgb(192, 120, 53)
+     
+     
+ }
+.tabla_Elementos { /*BEM*/
+    
+    border:3px solid rgb(247, 160, 160);
+     width: 100px;
+     height: 50px;
+}
+.tabla_Encabezado{ /*BEM*/
+    
+    border:3px solid rgb(247, 160, 160);
+    width: 100px;
+    height: 50px;
+      
+}
+ }
+@media (max-width:576px){ /******************MOBILE**********************/
+.col-2{
+    font-size: 0.5rem;
+}
+.Logo{
+    width: 15px;
+
+}
+h1{
+    font-size: 25px;
+}
+.parFotos{
+    margin-top:0;
+    font-size:0.8rem;
+    
+    .p2{
+        font-size: 0.5rem;
+
+    }
+    
+}
+ .parte2{
+     font-size: 0.8rem;
+     .p3{
+         font-size: 0.5rem;
+
+     }
+ }
+ .botonIndex{
+    font-size: 0.5rem;
+   }
+.form-group{
+    width: 90%;
+    margin:0;
+    margin-left: 20px;
+    font-size: 0.5rem;
+    max-width: 500px;
+    border: 1px solid rgb(194, 186, 186);
+
+    .form-group_leg{ /*BEM*/
+        font-size: 10px;
+        margin-left: 5px;
+        text-decoration: underline;
+    }
+    .selection{
+     margin-left: 10px;
+     margin-top: 5px;
+    }
+}
+.inputForm{
+    font-size: 10px;
+    display: block;
+}
+input{
+    font-size: 10px;
+}
+.piePag{
+    
+    padding: 20px;
+
+    
+}
+}
+
