@@ -92,7 +92,7 @@ body {
 .piePag {
   /*BEM*/
   background: #977d7d;
-  padding: 30px;
+  padding: 20px;
   width: 100%;
   color: white; }
 
@@ -323,6 +323,9 @@ nav ul li ul {
 
 @media (max-width: 576px) {
   /******************MOBILE**********************/
+  body {
+    margin: 0px;
+    padding: 0; }
   .col-2 {
     font-size: 0.5rem; }
   .Logo {
@@ -342,8 +345,48 @@ nav ul li ul {
     font-size: 0.5rem; }
   .form-group {
     width: 90%;
-    margin: 0;
-    margin-left: 20px;
+    margin: 20px;
+    font-size: 0.5rem;
+    max-width: 500px;
+    border: 1px solid #c2baba; }
+    .form-group .form-group_leg {
+      /*BEM*/
+      font-size: 10px;
+      margin-left: 5px;
+      text-decoration: underline; }
+    .form-group .selection {
+      margin-left: 10px;
+      margin-top: 5px; }
+  .inputForm {
+    font-size: 10px;
+    display: block; }
+  input {
+    font-size: 10px; } }
+
+@media (max-width: 1024px) {
+  body {
+    margin: 0px;
+    padding: 0; }
+  .col-2 {
+    font-size: 0.5rem; }
+  .Logo {
+    width: 15px; }
+  h1 {
+    font-size: 25px; }
+  .parFotos {
+    margin-top: 0;
+    font-size: 0.8rem; }
+    .parFotos .p2 {
+      font-size: 0.5rem; }
+  .parte2 {
+    font-size: 0.8rem; }
+    .parte2 .p3 {
+      font-size: 0.5rem; }
+  .botonIndex {
+    font-size: 0.5rem; }
+  .form-group {
+    width: 90%;
+    margin: 20px;
     font-size: 0.5rem;
     max-width: 500px;
     border: 1px solid #c2baba; }
@@ -361,4 +404,11 @@ nav ul li ul {
   input {
     font-size: 10px; }
   .piePag {
-    padding: 20px; } }
+    padding: 20px; }
+  footer {
+    margin-bottom: 0;
+    margin-top: 20%; }
+  .tabla {
+    margin-bottom: 50%; }
+  .ComoComprar {
+    margin-bottom: 80%; } }

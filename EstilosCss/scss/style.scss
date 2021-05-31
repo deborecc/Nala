@@ -4,8 +4,6 @@
 }
 
 
-
-
 h1{
         background-color: #f3efd5;
         color:sienna;
@@ -123,7 +121,7 @@ grid-template-rows: 70px 1fr 1fr 60px;
 
 .piePag{ /*BEM*/
     background: rgb(151, 125, 125);
-    padding:30px;
+    padding:20px;
     width:100%;
     color:white;
     
@@ -433,7 +431,11 @@ margin-bottom: 80px;
 }
  }
 @media (max-width:576px){ /******************MOBILE**********************/
-.col-2{
+    body{
+        margin:0px;
+        padding:0;
+    }
+    .col-2{
     font-size: 0.5rem;
 }
 .Logo{
@@ -465,8 +467,7 @@ h1{
    }
 .form-group{
     width: 90%;
-    margin:0;
-    margin-left: 20px;
+    margin:20px;
     font-size: 0.5rem;
     max-width: 500px;
     border: 1px solid rgb(194, 186, 186);
@@ -488,11 +489,83 @@ h1{
 input{
     font-size: 10px;
 }
-.piePag{
-    
-    padding: 20px;
 
+}
+
+@media (max-width:1024px){
+    body{
+        margin:0px;
+        padding:0;
+    }
+    .col-2{
+        font-size: 0.5rem;
+    }
+    .Logo{
+        width: 15px;
     
-}
-}
+    }
+    h1{
+        font-size: 25px;
+    }
+    .parFotos{
+        margin-top:0;
+        font-size:0.8rem;
+        
+        .p2{
+            font-size: 0.5rem;
+    
+        }
+        
+    }
+     .parte2{
+         font-size: 0.8rem;
+         .p3{
+             font-size: 0.5rem;
+    
+         }
+     }
+     .botonIndex{
+        font-size: 0.5rem;
+       }
+    .form-group{
+        width: 90%;
+        margin:20px;
+        font-size: 0.5rem;
+        max-width: 500px;
+        border: 1px solid rgb(194, 186, 186);
+    
+        .form-group_leg{ /*BEM*/
+            font-size: 10px;
+            margin-left: 5px;
+            text-decoration: underline;
+        }
+        .selection{
+         margin-left: 10px;
+         margin-top: 5px;
+        }
+    }
+    .inputForm{
+        font-size: 10px;
+        display: block;
+    }
+    input{
+        font-size: 10px;
+    }
+    .piePag{
+        padding:20px;
+    }
+    footer{
+        margin-bottom: 0;
+        margin-top: 20%;
+    }
+
+    .tabla{
+        margin-bottom: 50%;
+    }
+
+    .ComoComprar{
+        margin-bottom: 80%;
+    }
+    }
+
 
