@@ -120,7 +120,7 @@ grid-template-rows: 70px 1fr 1fr 60px;
 /*Nombre cada item de grid*/
 
 .piePag{ /*BEM*/
-    background: rgb(151, 125, 125);
+    background: rgba(151, 125, 125,0.7);
     padding:20px;
     width:100%;
     color:white;
@@ -431,7 +431,7 @@ margin-bottom: 80px;
       
 }
  }
-@media (max-width:576px){ /******************MOBILE**********************/
+@media (min-width:320px)and(max-width:767px){ //*****************MOBILE*********************//
     body{
         margin:0px;
         padding:0;
@@ -445,9 +445,10 @@ margin-bottom: 80px;
 }
 h1{
     font-size: 25px;
+    margin-bottom: 50px;
 }
 .parFotos{
-    margin-top:0;
+    margin-top:30px;
     font-size:0.8rem;
     
     .p2{
@@ -490,10 +491,16 @@ h1{
 input{
     font-size: 10px;
 }
-
+.tabla{
+    margin-bottom: 50%;
 }
 
-@media (max-width:1024px){
+.ComoComprar{
+    margin-bottom: 80%;
+}
+
+}
+@media (min-width:768px)and(max-width:950){//***********TABLETS************//
     body{
         margin:0px;
         padding:0;
@@ -568,5 +575,60 @@ input{
         margin-bottom: 80%;
     }
     }
+
+    @media (min-width: 1400px){ //***************PANTALLAS GRANDES********//
+        body{
+            margin:0px;
+            padding:0;
+        }
+        .col-2{
+            font-size: 0.5rem;
+        }
+        .Logo{
+            width: 15px;
+        
+        }
+        h1{
+            font-size: 50px;
+           
+        }
+        .parFotos{
+            margin-top:30%;
+            font-size:2rem;
+            
+            .p2{
+                font-size: 1.5rem;
+        
+            }
+            
+        }
+         .parte2{
+             font-size: 2rem;
+             .p3{
+                 font-size: 1.5rem;
+        
+             }
+         }
+         .botonIndex{
+            font-size: 1.5rem;
+           }
+        
+        .piePag{
+            padding:20px;
+        }
+        footer{
+            margin-bottom: 0;
+            margin-top: 10%;
+        }
+    
+        .tabla{
+            margin-bottom: 10%;
+        }
+    
+        .ComoComprar{
+            margin-bottom: 10%;
+        }
+        }
+    
 
 

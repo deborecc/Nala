@@ -91,7 +91,7 @@ body {
 /*Nombre cada item de grid*/
 .piePag {
   /*BEM*/
-  background: #977d7d;
+  background: rgba(151, 125, 125, 0.7);
   padding: 20px;
   width: 100%;
   color: white; }
@@ -321,8 +321,7 @@ nav ul li ul {
     width: 100px;
     height: 50px; }
 
-@media (max-width: 576px) {
-  /******************MOBILE**********************/
+@media (min-width: 320px) and (max-width: 767px) {
   body {
     margin: 0px;
     padding: 0; }
@@ -331,9 +330,10 @@ nav ul li ul {
   .Logo {
     width: 15px; }
   h1 {
-    font-size: 25px; }
+    font-size: 25px;
+    margin-bottom: 50px; }
   .parFotos {
-    margin-top: 0;
+    margin-top: 30px;
     font-size: 0.8rem; }
     .parFotos .p2 {
       font-size: 0.5rem; }
@@ -361,9 +361,13 @@ nav ul li ul {
     font-size: 10px;
     display: block; }
   input {
-    font-size: 10px; } }
+    font-size: 10px; }
+  .tabla {
+    margin-bottom: 50%; }
+  .ComoComprar {
+    margin-bottom: 80%; } }
 
-@media (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 950) {
   body {
     margin: 0px;
     padding: 0; }
@@ -412,3 +416,34 @@ nav ul li ul {
     margin-bottom: 50%; }
   .ComoComprar {
     margin-bottom: 80%; } }
+
+@media (min-width: 1400px) {
+  body {
+    margin: 0px;
+    padding: 0; }
+  .col-2 {
+    font-size: 0.5rem; }
+  .Logo {
+    width: 15px; }
+  h1 {
+    font-size: 50px; }
+  .parFotos {
+    margin-top: 30%;
+    font-size: 2rem; }
+    .parFotos .p2 {
+      font-size: 1.5rem; }
+  .parte2 {
+    font-size: 2rem; }
+    .parte2 .p3 {
+      font-size: 1.5rem; }
+  .botonIndex {
+    font-size: 1.5rem; }
+  .piePag {
+    padding: 20px; }
+  footer {
+    margin-bottom: 0;
+    margin-top: 10%; }
+  .tabla {
+    margin-bottom: 10%; }
+  .ComoComprar {
+    margin-bottom: 10%; } }
