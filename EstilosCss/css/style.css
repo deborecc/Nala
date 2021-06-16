@@ -92,18 +92,11 @@ body {
 .piePag {
   /*BEM*/
   background: rgba(151, 125, 125, 0.7);
-  padding: 20px;
   width: 100%;
   color: white; }
 
-.piePag_elementos {
-  /*BEM*/
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 1rem; }
-
 /**MENU NAVEGACION**/
 nav {
-  display: inline-block;
   padding: 5px;
   margin-top: 15px; }
 
@@ -111,13 +104,10 @@ nav ul {
   background: #e9d8ca;
   font-family: 'Montserrat', sans-serif;
   font-size: 15px;
-  float: left;
-  display: flex;
   border-radius: 5px; }
 
 nav ul li {
   list-style: none;
-  position: relative;
   margin: 10px;
   text-decoration: none; }
 
@@ -126,7 +116,6 @@ nav ul li:hover ul {
 
 nav ul li a {
   color: black;
-  justify-content: center;
   text-decoration: none; }
 
 nav ul li ul {
@@ -138,19 +127,13 @@ nav ul li ul {
 .subMenu {
   background: #e9d8ca;
   font-size: 13px;
-  position: absolute;
-  top: 100%;
-  list-style: none;
   padding: 0.5rem 0;
-  justify-content: center;
-  float: left;
-  display: none; }
+  justify-content: center; }
 
 .sub-item {
   background: #e9d8ca;
   text-decoration: none;
   justify-content: center;
-  display: block;
   width: 100%;
   padding: 0.5rem 0;
   text-align: inherit;
@@ -170,21 +153,73 @@ nav ul li ul {
   text-align: center;
   display: inline-block; }
 
-/*EJEMPLO EACH CON LOGOS PIE DE PAGINA */
-.tarjeta {
-  background-image: url("tarjeta.jpg");
+.nala_footer {
+  width: 50px; }
+
+.nalatexto_footer {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  text-align: center;
+  font-size: 0.7rem;
+  margin-top: 20px;
+  margin-right: 100px; }
+
+hr {
+  margin: 0; }
+
+.facebook {
+  background-image: url("facebook.jpg");
   width: 20px;
-  float: right; }
+  border-radius: 4px;
+  margin: 20px 20px 0px 20px;
+  justify-content: center; }
 
 .instagram {
   background-image: url("instagram.jpg");
   width: 20px;
-  float: right; }
+  border-radius: 4px;
+  margin: 20px 20px 0px 20px;
+  justify-content: center; }
 
 .correo {
   background-image: url("correo.jpg");
   width: 20px;
-  float: right; }
+  border-radius: 4px;
+  margin: 20px 20px 0px 20px;
+  justify-content: center; }
+
+.logos_footer {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.derechos a {
+  text-decoration: none;
+  color: #ebe1e1;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 10px; }
+
+.derechos a:hover {
+  text-decoration: underline; }
+
+.derechos_footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 0.8rem;
+  margin: 5px; }
+
+.contenedor_footer {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
 
 /**FOTOS DE LA PAGINA**/
 .carro {
@@ -192,6 +227,13 @@ nav ul li ul {
   margin-top: 20%;
   width: 90%;
   float: right; }
+
+.fotos_carrousel {
+  border-radius: 4px; }
+
+.fotos_carrousel:hover {
+  /*animacion en imagenes*/
+  transform: scale(1.1); }
 
 .parFotos {
   margin-top: 40%;
@@ -365,7 +407,65 @@ nav ul li ul {
   .tabla {
     margin-bottom: 50%; }
   .ComoComprar {
-    margin-bottom: 80%; } }
+    margin-bottom: 80%; }
+  .nala_footer {
+    width: 40px; }
+  .facebook {
+    background-image: url("facebook.jpg");
+    width: 15px;
+    border-radius: 4px;
+    margin: 20px 10px 0px 10px;
+    justify-content: center; }
+  .instagram {
+    background-image: url("instagram.jpg");
+    width: 15px;
+    border-radius: 4px;
+    margin: 20px 10px 0px 10px;
+    justify-content: center; }
+  .correo {
+    background-image: url("correo.jpg");
+    width: 15px;
+    border-radius: 4px;
+    margin: 20px 10px 0px 10px;
+    justify-content: center; }
+  .nalatexto_footer {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    text-align: center;
+    font-size: 0.5rem;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 10px; }
+  hr {
+    margin: 0; }
+  .logos_footer {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .derechos a {
+    text-decoration: none;
+    color: #ebe1e1;
+    font-size: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px; }
+  .derechos a:hover {
+    text-decoration: underline; }
+  .derechos_footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 0.5rem;
+    margin: 5px; }
+  .contenedor_footer {
+    display: flex;
+    align-items: center;
+    justify-content: center; } }
 
 @media (min-width: 768px) and (max-width: 950) {
   body {
@@ -415,7 +515,46 @@ nav ul li ul {
   .tabla {
     margin-bottom: 50%; }
   .ComoComprar {
-    margin-bottom: 80%; } }
+    margin-bottom: 80%; }
+  .nala_footer {
+    width: 50px; }
+  .nalatexto_footer {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    text-align: center;
+    font-size: 0.7rem;
+    margin-top: 20px;
+    margin-right: 100px; }
+  hr {
+    margin: 0; }
+  .logos_footer {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .derechos a {
+    text-decoration: none;
+    color: #ebe1e1;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px; }
+  .derechos a:hover {
+    text-decoration: underline; }
+  .derechos_footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 0.8rem;
+    margin: 5px; }
+  .contenedor_footer {
+    display: flex;
+    align-items: center;
+    justify-content: center; } }
 
 @media (min-width: 1400px) {
   body {
@@ -438,12 +577,46 @@ nav ul li ul {
       font-size: 1.5rem; }
   .botonIndex {
     font-size: 1.5rem; }
-  .piePag {
-    padding: 20px; }
-  footer {
-    margin-bottom: 0;
-    margin-top: 10%; }
   .tabla {
     margin-bottom: 10%; }
   .ComoComprar {
-    margin-bottom: 10%; } }
+    margin-bottom: 10%; }
+  .nala_footer {
+    width: 1px; }
+  .nalatexto_footer {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    text-align: center;
+    font-size: 0.7rem;
+    margin-top: 20px;
+    margin-right: 100px; }
+  hr {
+    margin: 0; }
+  .logos_footer {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .derechos a {
+    text-decoration: none;
+    color: #ebe1e1;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px; }
+  .derechos a:hover {
+    text-decoration: underline; }
+  .derechos_footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 0.8rem;
+    margin: 5px; }
+  .contenedor_footer {
+    display: flex;
+    align-items: center;
+    justify-content: center; } }
