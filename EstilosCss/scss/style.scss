@@ -588,9 +588,7 @@ input{
 .ComoComprar{
     margin-bottom: 80%;
 }
-footer{
-    position: absolute;
-}
+
 .nala_footer{
     width: 40px;
     
@@ -645,8 +643,12 @@ hr{
 .error{
     font-size: 1rem;
     text-align: center;
+    font-family:sans-serif;
     margin-bottom: 100%;
    
+}
+footer{
+    position: absolute;
 }
 .derechos a{
     text-decoration: none;
