@@ -12,13 +12,14 @@ h1 {
   font-family: 'Libre Baskerville', serif; }
 
 .error {
-  color: red;
+  color: slategrey;
+  text-decoration: none;
   font-size: 25px;
   font-family: sans-serif;
   text-align: center;
-  background-color: #fffdf9;
   padding: 100px;
-  margin: 50px; }
+  margin: 50px;
+  background-color: #fcfbe9; }
 
 h2 {
   color: slategrey;
@@ -98,7 +99,7 @@ body {
 /**MENU NAVEGACION**/
 nav {
   padding: 5px;
-  margin-top: 15px; }
+  margin-top: 20px; }
 
 nav ul {
   background: #e9d8ca;
@@ -221,6 +222,11 @@ hr {
   align-items: center;
   justify-content: center; }
 
+.linea_medio {
+  margin: 0;
+  color: transparent;
+  width: 100%; }
+
 /**FOTOS DE LA PAGINA**/
 .carro {
   margin-left: 20%;
@@ -238,7 +244,6 @@ hr {
 .parFotos {
   margin-top: 40%;
   font-family: 'Merriweather', serif;
-  font-size: 20px;
   border-radius: 1.0;
   font-size: 30px;
   padding: 5px;
@@ -375,16 +380,36 @@ hr {
     font-size: 25px;
     margin-bottom: 50px; }
   .parFotos {
-    margin-top: 30px;
-    font-size: 0.8rem; }
+    margin-top: 70px;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    text-align: center; }
+    .parFotos p {
+      text-align: center;
+      margin-left: 10%; }
     .parFotos .p2 {
-      font-size: 0.5rem; }
+      font-size: 0.7rem;
+      text-align: center;
+      margin-top: 10%;
+      margin-left: 10%; }
+  .carro {
+    margin: 0; }
   .parte2 {
-    font-size: 0.8rem; }
+    margin-top: 100px;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    text-align: center; }
+    .parte2 p {
+      text-align: center;
+      margin-left: 10%; }
     .parte2 .p3 {
-      font-size: 0.5rem; }
+      font-size: 0.7rem;
+      text-align: center;
+      margin-top: 10%;
+      margin-left: 10%; }
   .botonIndex {
-    font-size: 0.5rem; }
+    font-size: 0.8rem;
+    margin: 40px; }
   .form-group {
     width: 90%;
     margin: 20px;
@@ -437,16 +462,23 @@ hr {
     margin-top: 20px;
     margin-right: 20px;
     margin-left: 10px; }
+  .linea_medio {
+    margin: 0;
+    color: #300330;
+    width: 100%; }
   hr {
     margin: 0; }
   .logos_footer {
     display: flex;
     justify-content: center;
     align-items: center; }
+  .error {
+    font-size: 1rem;
+    text-align: center; }
   .derechos a {
     text-decoration: none;
     color: #ebe1e1;
-    font-size: 0.5rem;
+    font-size: 0.8rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -460,7 +492,7 @@ hr {
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-size: 0.5rem;
+    font-size: 0.8rem;
     margin: 5px; }
   .contenedor_footer {
     display: flex;
@@ -478,10 +510,13 @@ hr {
   h1 {
     font-size: 25px; }
   .parFotos {
-    margin-top: 0;
-    font-size: 0.8rem; }
+    margin: 0;
+    font-size: 0.8rem;
+    text-align: center; }
     .parFotos .p2 {
-      font-size: 0.5rem; }
+      text-align: center;
+      font-size: 0.5rem;
+      margin: 0; }
   .parte2 {
     font-size: 0.8rem; }
     .parte2 .p3 {
