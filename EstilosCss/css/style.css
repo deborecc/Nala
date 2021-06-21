@@ -433,6 +433,8 @@ hr {
     margin-bottom: 50%; }
   .ComoComprar {
     margin-bottom: 80%; }
+  footer {
+    position: absolute; }
   .nala_footer {
     width: 40px; }
   .facebook {
@@ -474,7 +476,8 @@ hr {
     align-items: center; }
   .error {
     font-size: 1rem;
-    text-align: center; }
+    text-align: center;
+    margin-bottom: 100%; }
   .derechos a {
     text-decoration: none;
     color: #ebe1e1;
