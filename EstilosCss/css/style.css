@@ -425,12 +425,14 @@ footer {
       font-size: 0.8rem;
       text-decoration: underline; }
     .form-group .selection {
-      margin-left: 10px;
-      margin-top: 5px;
+      margin: 0px 5px 30px 10px;
       font-size: 10px; }
+    .form-group .comentarios {
+      margin: 20px 0px 10px 10px; }
   .inputForm {
     font-size: 0.8rem;
-    display: block; }
+    display: block;
+    margin: 10px 10px 20px 10px; }
   input {
     font-size: 10px;
     margin: 5px; }
