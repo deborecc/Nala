@@ -418,7 +418,8 @@ footer {
     margin: 20px;
     font-size: 0.5rem;
     max-width: 500px;
-    border: 1px solid #c2baba; }
+    border: 1px solid #c2baba;
+    margin-bottom: 100%; }
     .form-group .form-group_leg {
       /*BEM*/
       font-size: 0.8rem;
