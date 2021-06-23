@@ -85,13 +85,19 @@ header{
     padding:10px;
 }
 input{
-    margin:5px;
+    margin:10px;
     font-size: 14px;
-    margin:10px 0px 10px 0px;
+    margin:10px 0px 10px 10px;
     
+}
+.inputForm{
+    margin:30px 10px 30px 10px;
+    display:block;
 
 }
-
+.comentarios{
+    margin:40px 0px 20px 20px;
+}
 .selection{
     font-size: 14px;
 }
