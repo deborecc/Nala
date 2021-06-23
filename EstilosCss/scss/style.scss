@@ -218,7 +218,7 @@ nav {
 }
 
 .nala_footer{
-    width: 50px;
+    width: 60px;
 
 }
 .nalatexto_footer{
@@ -226,7 +226,7 @@ nav {
     justify-content:left;
     align-items: center;
     text-align: center;
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     margin-top: 20px;
     margin-right: 100px;
     
@@ -256,8 +256,7 @@ hr{
     justify-content: center;
     align-items:center;
    
-    
-} 
+}
 .derechos a{
     text-decoration: none;
     color: rgb(235, 225, 225);
@@ -280,8 +279,8 @@ hr{
     justify-content:center;
     align-items: center;
     text-align: center;
-    font-size: 0.8rem;
-    margin: 5px;
+    font-size: 0.9rem;
+    margin: 10px;
     
 }
 .contenedor_footer{
@@ -300,7 +299,9 @@ hr{
     width: 100%;
    
 }
-
+footer{
+    position: absolute;
+}
 
 
 
@@ -565,21 +566,24 @@ h1{
     border: 1px solid rgb(194, 186, 186);
 
     .form-group_leg{ /*BEM*/
-        font-size: 10px;
-        margin-left: 5px;
+        font-size: 0.8rem;
         text-decoration: underline;
     }
     .selection{
      margin-left: 10px;
      margin-top: 5px;
+     font-size: 10px;
     }
 }
+
 .inputForm{
-    font-size: 10px;
+    font-size: 0.8rem;
     display: block;
+    
 }
 input{
     font-size: 10px;
+    margin:5px;
 }
 .tabla{
     margin-bottom: 50%;
@@ -613,7 +617,7 @@ input{
     justify-content:left;
     align-items: center;
     text-align: center;
-    font-size: 0.5rem;
+    font-size: 0.7rem;
     margin-top: 20px;
     margin-right: 20px;
     margin-left: 10px;
@@ -644,7 +648,7 @@ hr{
     font-size: 1rem;
     text-align: center;
     font-family:sans-serif;
-    margin-bottom: 100%;
+   
    
 }
 footer{
@@ -653,7 +657,7 @@ footer{
 .derechos a{
     text-decoration: none;
     color: rgb(235, 225, 225);
-    font-size: 0.8rem;
+    font-size: 1rem;
     display: flex;
     justify-content:center;
     align-items: center;
@@ -673,7 +677,7 @@ footer{
     align-items: center;
     text-align: center;
     font-size: 0.8rem;
-    margin: 5px;
+    margin: 10px;
     
 }
 .contenedor_footer{

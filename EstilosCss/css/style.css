@@ -155,14 +155,14 @@ nav ul li ul {
   display: inline-block; }
 
 .nala_footer {
-  width: 50px; }
+  width: 60px; }
 
 .nalatexto_footer {
   display: flex;
   justify-content: left;
   align-items: center;
   text-align: center;
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   margin-top: 20px;
   margin-right: 100px; }
 
@@ -214,8 +214,8 @@ hr {
   justify-content: center;
   align-items: center;
   text-align: center;
-  font-size: 0.8rem;
-  margin: 5px; }
+  font-size: 0.9rem;
+  margin: 10px; }
 
 .contenedor_footer {
   display: flex;
@@ -226,6 +226,9 @@ hr {
   margin: 0;
   color: transparent;
   width: 100%; }
+
+footer {
+  position: absolute; }
 
 /**FOTOS DE LA PAGINA**/
 .carro {
@@ -418,17 +421,18 @@ hr {
     border: 1px solid #c2baba; }
     .form-group .form-group_leg {
       /*BEM*/
-      font-size: 10px;
-      margin-left: 5px;
+      font-size: 0.8rem;
       text-decoration: underline; }
     .form-group .selection {
       margin-left: 10px;
-      margin-top: 5px; }
+      margin-top: 5px;
+      font-size: 10px; }
   .inputForm {
-    font-size: 10px;
+    font-size: 0.8rem;
     display: block; }
   input {
-    font-size: 10px; }
+    font-size: 10px;
+    margin: 5px; }
   .tabla {
     margin-bottom: 50%; }
   .ComoComprar {
@@ -458,7 +462,7 @@ hr {
     justify-content: left;
     align-items: center;
     text-align: center;
-    font-size: 0.5rem;
+    font-size: 0.7rem;
     margin-top: 20px;
     margin-right: 20px;
     margin-left: 10px; }
@@ -475,14 +479,13 @@ hr {
   .error {
     font-size: 1rem;
     text-align: center;
-    font-family: sans-serif;
-    margin-bottom: 100%; }
+    font-family: sans-serif; }
   footer {
     position: absolute; }
   .derechos a {
     text-decoration: none;
     color: #ebe1e1;
-    font-size: 0.8rem;
+    font-size: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -497,7 +500,7 @@ hr {
     align-items: center;
     text-align: center;
     font-size: 0.8rem;
-    margin: 5px; }
+    margin: 10px; }
   .contenedor_footer {
     display: flex;
     align-items: center;
